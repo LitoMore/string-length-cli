@@ -19,7 +19,7 @@ $ string-length --help
     $ string-length <text> [more...]
 
   Example
-    $ string-width Jiong囧
+    $ string-length Jiong囧
     6
 ```
 
