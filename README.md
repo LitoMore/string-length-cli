@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-$ npm i -g string-length
+$ npm i -g string-length-cli
 ```
 
 ## Usage
