@@ -1,8 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-
-const meow = require('meow');
-const stringLength = require('string-length');
+import meow from 'meow';
+import stringLength from 'string-length';
 
 const cli = meow(`
 Usage
@@ -11,6 +9,8 @@ Usage
 Example
 	$ string-length Jiong囧
 	6
-`);
+`, {
+	importMeta: import.meta,
+});
 
 console.log(stringLength(cli.input.join(' ')));

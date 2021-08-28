@@ -2,6 +2,7 @@
   "name": "string-length-cli",
   "version": "1.0.0",
   "description": "Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes",
+  "type": "module",
   "bin": {
     "string-length": "cli.js"
   },
@@ -13,7 +14,7 @@
     "url": "git+https://github.com/LitoMore/string-length-cli.git"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=14"
   },
   "files": [
     "cli.js"
@@ -39,12 +40,11 @@
   },
   "homepage": "https://github.com/LitoMore/string-length-cli#readme",
   "dependencies": {
-    "meow": "^5.0.0",
-    "string-length": "^3.0.0"
+    "meow": "^10.1.1"
   },
   "devDependencies": {
-    "ava": "^1.3.1",
-    "execa": "^1.0.0",
-    "xo": "^0.24.0"
+    "ava": "^3.15.0",
+    "execa": "^5.1.1",
+    "xo": "^0.44.0"
   }
 }
