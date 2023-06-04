@@ -6,13 +6,13 @@
 
 ## Install
 
-```bash
-$ npm i -g string-length-cli
+```sh
+npm i -g string-length-cli
 ```
 
 ## Usage
 
-```bash
+```sh
 $ string-length --help
 
   Usage
